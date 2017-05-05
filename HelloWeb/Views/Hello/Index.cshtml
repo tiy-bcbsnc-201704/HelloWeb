@@ -1,0 +1,59 @@
+﻿
+@{
+    ViewBag.Title = "Some other text";
+}
+
+<h2>Index</h2>
+
+@using (Html.BeginForm("SayHello", "Hello", FormMethod.Post))
+{
+    <fieldset>
+        <legend>Fill out this form. Or else.</legend>
+        <div class="form-group">
+            <input class="form-control" type="text" name="Name" placeholder="your name">
+        </div>
+        <button class="btn btn-primary">Submit</button>
+    </fieldset>
+}
+
+<h3>Index</h3>
+<h4>Index</h4>
+<h5>Index</h5>
+<h6>Index</h6>
+
+<p>This is a paragraph.</p>
+<p>This is a paragraph.</p>
+<p>This is a paragraph.</p>
+<p>This is a paragraph.</p>
+
+<div>
+    I <span class="glyphicon glyphicon-heart"></span> WEB.
+    I <span class="glyphicon glyphicon-heart"></span> WEB.
+    I <span class="glyphicon glyphicon-heart"></span> WEB.
+    I <span class="glyphicon glyphicon-heart"></span> WEB.
+    I <span class="glyphicon glyphicon-heart"></span> WEB.
+</div>
+<div>This is a division.</div>
+
+<table class="table table-striped table-bordered">
+    <thead>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Curtis</td>
+            <td>Schlak</td>
+        </tr>
+        <tr>
+            <td>Leon</td>
+            <td>Musselwhite</td>
+        </tr>
+        <tr>
+            <td>Hari</td>
+            <td>Pilla</td>
+        </tr>
+    </tbody>
+</table>
